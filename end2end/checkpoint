@@ -1,0 +1,2 @@
+model_checkpoint_path: "transformer_weights.5h"
+all_model_checkpoint_paths: "transformer_weights.5h"
