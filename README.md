@@ -17,4 +17,4 @@ There are 2 model for transforming a Thai transliteration to a English lyric:
 
 Then, we search a song's name using Genius API.
 
-**The demo website for searching song is available in the demo folder ^_^.
+**The demo website for searching song is available in the demo folder ^_^.**
