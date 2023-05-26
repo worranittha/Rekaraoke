@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  height: 50vmin;
+  margin-top: 1%;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+.App-header {
+  justify-content: center;
+  font-family: prakas;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input {
+  min-width: 500px;
+  margin-top: 1%;
+  padding: calc(1px + 2vmin);
+  /* border-radius: 30px; */
+  border: none;
+  background-color: darkgray;
+  font-family: prakas;
+  font-size: calc(5px + 2vmin);
+} 
+
+input::placeholder{
+  color: gray;
+}
+
+.button {
+  min-width: 20px;
+  margin-top: 1.5%;
+  padding: 1vmin;
+  border-radius: 5vmin;
+  border: none;
+  font-family: prakas;
+  font-size: calc(2px + 2vmin);
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.App-answer {
+  justify-content: center;
+  font-family: smarn;
+  font-size: calc(25px + 2vmin);
+  color: #D890E4;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "prakas";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../fonts/CSPraKas.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "smarn";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../fonts/kt_smarn.ttf") format("truetype");
+}
